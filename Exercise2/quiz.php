@@ -1,5 +1,4 @@
 <?php
-  print_r($_POST);
   $numCorrect = 0;
   $answer1 = $_POST['q1'];
   if ($answer1 == '4') {
@@ -28,7 +27,7 @@
 ?>
 <html>
   <head>
-    <title>Quix Results</title>
+    <title>Quiz Results</title>
   </head>
   <body>
     <h1>Results</h1>
