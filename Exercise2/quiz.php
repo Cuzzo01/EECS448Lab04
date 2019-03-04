@@ -1,28 +1,48 @@
 <?php
   $numCorrect = 0;
-  $answer1 = $_POST['q1'];
-  if ($answer1 == '4') {
-    $numCorrect++;
+  if (isset($_POST['q1'])) {
+    $answer1 = $_POST['q1'];
+    if ($answer1 == '4') {
+      $numCorrect++;
+    }
+  } else {
+    $answer1 = 'Not answered';
   }
 
-  $answer2 = $_POST['q2'];
-  if ($answer2 == '28') {
-    $numCorrect++;
+  if (isset($_POST['q2'])) {
+    $answer2 = $_POST['q2'];
+    if ($answer2 == '28') {
+      $numCorrect++;
+    }
+  } else {
+    $answer2 = 'Not answered';
   }
 
-  $answer3 = $_POST['q3'];
-  if ($answer3 == '5') {
-    $numCorrect++;
+  if (isset($_POST['q3'])) {
+    $answer3 = $_POST['q3'];
+    if ($answer3 == '5') {
+      $numCorrect++;
+    }
+  } else {
+    $answer3 = 'Not answered';
   }
 
-  $answer4 = $_POST['q4'];
-  if ($answer4 == '19') {
-    $numCorrect++;
+  if (isset($_POST['q4'])) {
+    $answer4 = $_POST['q4'];
+    if ($answer4 == '19') {
+      $numCorrect++;
+    }
+  } else {
+    $answer4 = 'Not answered';
   }
 
-  $answer5 = $_POST['q5'];
-  if ($answer5 == '44') {
-    $numCorrect++;
+  if (isset($_POST['q5'])) {
+    $answer5 = $_POST['q5'];
+    if ($answer5 == '44') {
+      $numCorrect++;
+    }
+  } else {
+    $answer5 = 'Not answered';
   }
 ?>
 <html>
