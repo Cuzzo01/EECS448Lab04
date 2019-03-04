@@ -1,0 +1,26 @@
+table#receipt {
+  border-collapse: collapse;
+}
+
+table#receipt tr:hover {
+  background-color: #f5f5f5;
+}
+
+table#receipt th, table#receipt td {
+  padding: 4px;
+  border: 1px solid black;
+  text-align: left;
+}
+
+table#productSelection {
+  border-collapse: collapse;
+}
+
+table#productSelection tr, table#productSelection td {
+  border-bottom: 1px solid black;
+  padding-top: 2px;
+}
+
+fieldset {
+  width: 500px;
+}
